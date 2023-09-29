@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.land-page{
+    background-color: blueviolet;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    /* background-color: wheat; */
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 110px;
+}
+.logo{
+    display: flex;
+    margin-left: 70px;
+}
+nav .links{
+    display: flex;
+    /* list-style-type: none; */
+}
+.links a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: white;
+    font-family: Georgia,;
+}
+.sec1{
+    display: flex;
+    /* height: 90vh; */
+    width: 100%;
+    /* margin: -100px 120px; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
+}
+
+.sec1 img{
+    height: 90%;
+    margin: -6% 50px;
+}
+.paragraph{
+    /* background-color: brown; */
+    width: 40%;
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 125px 110px;
+}
+.h-settings{
+    display: flex;
+    gap: 5px;
+    font-size: x-large;
+}
+.arrr h1::after{
+    /* background: linear-gradient(#A71f17, #2a0786); */
+    display: block;
+    height: 2px;
+    width: 50%;
+    background-color: aqua;
+    color: chartreuse;
+    font-weight: 20px;
+    content: " ";
+}
+.arrr h3{
+    font-size: xx-large;
+}
+.button button{
+    border: 0;
+    background: linear-gradient(#A71f17, #2a0786);
+    padding: 25px 60px;
+    color: white;
+    border: 0;
+    font-size: x-large;
+    border-radius: 8px;
+}
+.sec2{
+    display: flex;
+    /* height: 80vh; */
+    width: 100%;  
+    justify-content: space-around;    
+}
+.sec2 h1{  
+    color: white;
+}
+.sec2 img{
+    height: 20%;
+    /* margin: -6% 20px; */
+}
+.paragraph2{
+    /* background-color: brown; */
+    width: 30%;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 25% 80px;
+    gap: 30px;
+}
+.paragraph2 p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma,;
+}
+.button-set{
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+.button-set li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: white; 
+}
+.button-set li img{
+    width: 30px;
+    height: 25px;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    /* height: 70vh; */
+    width: 50%;  
+    /* background-color: brown; */
+    align-items: center;
+    gap: 50px;
+    margin-top: -60px;
+    /* justify-content: space-around;     */
+}
+.sec3 h2::after{
+    display: block;
+    width: 90%;
+    height: 4px;
+    background-color: orange;
+    content: " ";
+}
+.distribut{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.distribut2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sectt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+
+}
+.list-1{
+    width: 50%;
+    /* height: 50%; */
+    color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 10px; */
+    /* background-color: bisque; */
+
+}
+.order {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.order li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white; 
+}
+.order li img{
+    width: 20px;
+    height: 20px;
+}
+.check{
+    width: 20%;
+    height: 40px;
+    color: white;
+    background: linear-gradient(#A71f17, #2a0786);
+    align-items: center;
+    border: 0;
+}
+/* ...FFOR BATA BASE AND UI/UX... */
+.list-11{
+    width: 100%;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    /* height: 70vh; */
+    width: 80%;  
+    /* background-color: blanchedalmond; */
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    /* justify-content: space-around;     */
+}
+.pro-foto{
+    width: 90%;
+    color: lightgrey;
+    /* background-color: chartreuse; */
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.foto1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.p-background{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: lightslategrey;
+}
+.intro{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.intro h6{
+    font-size: 8px;
+    
+}
+.conclusion{
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+.media{
+    background: linear-gradient(#0000,#332133);
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:950px) {
+    nav{
+        /* width: 20%;
+        display: flex; */
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .links a{
+        flex-direction: column;
+        display: none;
+    }
+    .button-set li{
+        flex-direction: column;
+    }
+    .sec1{
+        flex-direction: column-reverse;
+    }
+    .paragraph{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .sec1 img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .paragraph2{
+        width: 80%;
+        margin-left: 60px;
+    }
+    .h-settings{
+        flex-direction: column;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .distribut{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .sectt{
+        /* width: 100%; */
+        margin-left: -30px;
+    }
+    .check,.foto1{
+        width: 80%;
+    }
+    .pro-foto{
+        flex-direction: column;
+        gap: 30px;
+        margin-left: -30px;
+    }
+    .sec2{
+        margin-left: -60px;
+    }
+    .sec3{
+        margin-top: 20px;
+    }
+    .distribut2{
+        /* margin-left: -30px; */
+        gap: 30px;
+        flex-direction: column;
+    }
+    .media{
+        gap: 10px;
+    }
+
+  
+ 
+
+}
+
+    
+
+
+    
+
+
+
+
+
